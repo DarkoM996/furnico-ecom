@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-serif;
+    @apply bg-stone-100;
+    @apply text-stone-950;
+  }
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+}
