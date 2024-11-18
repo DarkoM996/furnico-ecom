@@ -5,8 +5,8 @@
 @layer base {
   body {
     @apply font-serif;
-    @apply bg-stone-100;
-    @apply text-stone-950;
+    @apply bg-primary_lighterShade-50;
+    @apply text-black;
   }
   :root {
     --radius: 0.5rem;
