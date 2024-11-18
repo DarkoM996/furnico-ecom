@@ -9,9 +9,30 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
-      colors: {},
+      colors: {
+        primary_lighterShade: {
+          50: "#FCF3E3",
+          100: "#F2E9DA",
+          150: "#E5DDCE",
+          200: "#D9D1C4",
+          300: "#CCC5B8",
+          400: "#BFB9AD",
+          500: "#B2ACA1",
+        },
+        primary_darkerShade: {
+          600: "#595348",
+          700: "#4A453C",
+          750: "#3D3932",
+          800: "#2F2C26",
+          850: "#1F1D19",
+          900: "#12110F",
+        },
+      },
       fontFamily: {
         serif: ["Cormorant Garamound", "serif"],
+      },
+      screens: {
+        "3xl": "1920px",
       },
     },
   },
