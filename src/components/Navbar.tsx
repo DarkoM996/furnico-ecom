@@ -7,17 +7,21 @@ const Navbar = () => {
         <div>
           <h4 className="text-2xl md:text-3xl">Furnico</h4>
         </div>
-        <ul className="flex gap-2">
+        <ul className="hidden md:flex justify-center items-center gap-4">
           <a href="/">Home</a>
           <a href="/">Products</a>
           <a href="/">About</a>
           <a href="/">Contact</a>
         </ul>
         {/* Icons */}
-        <div className="flex gap-2">
+        <div className="hidden md:flex justify-center items-center gap-3">
           <MenuIcon />
           <ShoppingBag />
           <SearchIcon />
+        </div>
+        {/* Hamburger Menu */}
+        <div className="md:hidden">
+          <MenuIcon />
         </div>
       </div>
     </nav>
