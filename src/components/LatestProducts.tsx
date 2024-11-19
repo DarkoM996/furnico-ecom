@@ -10,9 +10,9 @@ const LatestProducts = () => {
       {/* Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {/* Product 1 */}
-        <div>
+        <div className="flex flex-col justify-center items-start gap-6">
           {/* Image */}
-          <div className="relative w-full h-full">
+          <div className="relative w-full h-[400px]">
             <img
               src={image}
               alt="product image"
@@ -22,10 +22,10 @@ const LatestProducts = () => {
           {/* Text */}
           <div className="flex flex-col justify-center items-start gap-4 w-full h-fit">
             <div className="flex flex-row justify-between items-center w-full">
-              <h4 className="text-2xl md:text-4xl">Product Name</h4>
+              <h4 className="text-2xl">Product Name</h4>
               <Heart size={28} />
             </div>
-            <p>$1000</p>
+            <p className="text-xl text-primary_darkerShade-750">$1000</p>
           </div>
         </div>
         {/* Product 1 */}
