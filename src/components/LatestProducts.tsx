@@ -22,7 +22,7 @@ const LatestProducts = () => {
           {/* Text */}
           <div className="flex flex-col justify-center items-start gap-4 w-full h-fit">
             <div className="flex flex-row justify-between items-center w-full">
-              <h4 className="text-2xl">Product Name</h4>
+              <h4 className="text-3xl">Product Name</h4>
               <Heart size={28} />
             </div>
             <p className="text-xl text-primary_darkerShade-750">$1000</p>
