@@ -7,7 +7,7 @@ const Hero = () => {
       {/* Grid */}
       <div className="flex flex-col justify-start items-center gap-6 md:gap-12">
         {/* image */}
-        <div className="relative w-full h-[500px]">
+        <div className="relative w-full h-[500px] lg:h-[600px]">
           <img
             src={backgroundimage}
             alt="hero image"
@@ -21,7 +21,7 @@ const Hero = () => {
               Feeling The Comfort Of Resting Comfortably Using FurniPro
             </h1>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col justify-center items-start gap-4 md:gap-6 lg:w-1/3">
             <p>
               Comfort in your own home shouldn`t be something that bothers you.
               Make that the problem of the past by looking through our curated
