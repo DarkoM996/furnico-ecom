@@ -3,11 +3,11 @@ import backgroundimage from "../images/hero.jpg";
 
 const Hero = () => {
   return (
-    <section className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-8 lg:px-28">
+    <section className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-6 lg:px-28">
       {/* Grid */}
       <div className="flex flex-col justify-start items-center gap-6 w-full h-fit">
         {/* image */}
-        <div className="relative w-full h-[500px] lg:h-[600px]">
+        <div className="relative w-full h-[400px] lg:h-[600px]">
           <img
             src={backgroundimage}
             alt="hero image"
@@ -15,7 +15,7 @@ const Hero = () => {
           />
         </div>
         {/* Text container */}
-        <div className="flex flex-col lg:flex-row justify-center items-start gap-6 w-full">
+        <div className="flex flex-col lg:flex-row justify-center items-start gap-6 w-full h-1/2 lg:h-1/3">
           <div className="w-full">
             <h1 className="text-4xl md:text-5xl lg:text-7xl lg:leading-tight">
               Feeling The Comfort Of Resting Comfortably Using FurniPro
