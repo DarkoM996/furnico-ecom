@@ -15,13 +15,13 @@ const Hero = () => {
           />
         </div>
         {/* Text container */}
-        <div className="flex flex-col md:flex-row justify-center items-center gap-6 w-full">
+        <div className="flex flex-col lg:flex-row justify-center items-start gap-6 w-full">
           <div className="w-full">
             <h1 className="text-4xl md:text-5xl lg:text-7xl lg:leading-tight">
               Feeling The Comfort Of Resting Comfortably Using FurniPro
             </h1>
           </div>
-          <div className="flex flex-col justify-center items-start gap-4 md:gap-6 lg:w-1/3 h-fit">
+          <div className="flex flex-col justify-center items-start gap-4 md:gap-6 w-full h-full sm:w-2/3 lg:w-1/3">
             <p>
               Comfort in your own home shouldn`t be something that bothers you.
               Make that the problem of the past by looking through our curated
