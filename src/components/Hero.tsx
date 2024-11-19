@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-8 lg:px-28">
       {/* Grid */}
-      <div className="flex flex-col justify-start items-center gap-6 md:gap-12 w-full h-fit">
+      <div className="flex flex-col justify-start items-center gap-6 w-full h-fit">
         {/* image */}
         <div className="relative w-full h-[500px] lg:h-[600px]">
           <img
@@ -17,7 +17,7 @@ const Hero = () => {
         {/* Text container */}
         <div className="flex flex-col md:flex-row justify-center items-center gap-6 w-full">
           <div className="w-full">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl lg:leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-7xl lg:leading-tight">
               Feeling The Comfort Of Resting Comfortably Using FurniPro
             </h1>
           </div>
