@@ -4,7 +4,7 @@ import image2 from "../images/trendingproduct2.jpg";
 
 const LatestProducts = () => {
   return (
-    <section className="max-w-screen-3xl mx-auto w-full h-screen relative px-6 py-6 lg:px-28">
+    <section className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-6 lg:py-24 lg:px-28">
       <h2 className="pb-12 text-3xl md:text-4xl lg:text-5xl">
         Latest Products
       </h2>
