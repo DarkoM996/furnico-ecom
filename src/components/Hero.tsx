@@ -27,9 +27,11 @@ const Hero = () => {
               Make that the problem of the past by looking through our curated
               collection
             </p>
-            <div className="flex gap-2">
-              <Button>Sample Action</Button>
-              <Button>Sample Action</Button>
+            <div className="flex flex-row justify-center items-center gap-2">
+              <Button className="p-6 rounded-full bg-black">Get Started</Button>
+              <Button className="p-6 rounded-full bg-primary_lighterShade-400 text-black hover:bg-primary_lighterShade-500">
+                Contact Us
+              </Button>
             </div>
           </div>
         </div>
