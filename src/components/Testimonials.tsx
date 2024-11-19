@@ -36,9 +36,9 @@ const Testimonials = () => {
           </div>
         </div>
         {/* Card 1*/}
-        <div className="flex flex-col justify-center items-start gap-6 px-6 py-4 bg-primary_lighterShade-200 rounded-3xl">
+        <div className="flex flex-col justify-center items-start gap-6 px-6 py-4 bg-primary_lighterShade-200 rounded-3xl w-full h-full">
           <div className="flex flex-col items-start gap-2">
-            <h4 className="text-2xl md:text-3xl">Amazing Sofa</h4>
+            <h4 className="text-2xl md:text-3xl">Best Sofa Ever</h4>
             {/* Star rating */}
             <div className="flex flex-row  gap-2 text-yellow-500">
               <StarIcon fill="#e2c20a" />
@@ -57,15 +57,15 @@ const Testimonials = () => {
           {/* Date and name of who posted it */}
           <div className="flex flex-row justify-between items-centers pt-4 w-full h-fit">
             {/* customer's name */}
-            <p className="font-bold">John Wayne</p>
+            <p className="font-bold">Wayne Jefferson</p>
             {/* date when the comment is posted */}
-            <p>24/07/2024</p>
+            <p>24/03/2024</p>
           </div>
         </div>
         {/* Card 1*/}
         <div className="flex flex-col justify-center items-start gap-6 px-6 py-4 bg-primary_lighterShade-200 rounded-3xl">
           <div className="flex flex-col items-start gap-2">
-            <h4 className="text-2xl md:text-3xl">Amazing Sofa</h4>
+            <h4 className="text-2xl md:text-3xl">The Best Mattress</h4>
             {/* Star rating */}
             <div className="flex flex-row  gap-2 text-yellow-500">
               <StarIcon fill="#e2c20a" />
@@ -84,15 +84,15 @@ const Testimonials = () => {
           {/* Date and name of who posted it */}
           <div className="flex flex-row justify-between items-centers pt-4 w-full h-fit">
             {/* customer's name */}
-            <p className="font-bold">John Wayne</p>
+            <p className="font-bold">George Davies</p>
             {/* date when the comment is posted */}
-            <p>24/07/2024</p>
+            <p>24/03/2024</p>
           </div>
         </div>
-        {/* Card 1*/}
+        {/* Card 4*/}
         <div className="flex flex-col justify-center items-start gap-6 px-6 py-4 bg-primary_lighterShade-200 rounded-3xl">
           <div className="flex flex-col items-start gap-2">
-            <h4 className="text-2xl md:text-3xl">Amazing Sofa</h4>
+            <h4 className="text-2xl md:text-3xl">Best Sleep</h4>
             {/* Star rating */}
             <div className="flex flex-row  gap-2 text-yellow-500">
               <StarIcon fill="#e2c20a" />
@@ -111,9 +111,9 @@ const Testimonials = () => {
           {/* Date and name of who posted it */}
           <div className="flex flex-row justify-between items-centers pt-4 w-full h-fit">
             {/* customer's name */}
-            <p className="font-bold">John Wayne</p>
+            <p className="font-bold">Lily Thompson</p>
             {/* date when the comment is posted */}
-            <p>24/07/2024</p>
+            <p>24/03/2024</p>
           </div>
         </div>
       </div>
