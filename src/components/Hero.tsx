@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="max-w-screen-3xl mx-auto w-full h-[calc(100vh-81px)] relative px-6 py-8 lg:px-28">
       {/* Grid */}
-      <div className="flex flex-col justify-start items-center gap-6 md:gap-12">
+      <div className="flex flex-col justify-start items-center gap-6 md:gap-12 w-full h-fit">
         {/* image */}
         <div className="relative w-full h-[500px] lg:h-[600px]">
           <img
@@ -21,7 +21,7 @@ const Hero = () => {
               Feeling The Comfort Of Resting Comfortably Using FurniPro
             </h1>
           </div>
-          <div className="flex flex-col justify-center items-start gap-4 md:gap-6 lg:w-1/3">
+          <div className="flex flex-col justify-center items-start gap-4 md:gap-6 lg:w-1/3 h-fit">
             <p>
               Comfort in your own home shouldn`t be something that bothers you.
               Make that the problem of the past by looking through our curated
