@@ -29,36 +29,60 @@ const LatestProducts = () => {
           </div>
         </div>
         {/* Product 1 */}
-        <div>
+        <div className="flex flex-col justify-center items-start gap-6">
           {/* Image */}
-          <div>
-            <p>Image</p>
+          <div className="relative w-full h-[400px]">
+            <img
+              src={image}
+              alt="product image"
+              className="w-full h-full object-cover rounded-3xl"
+            />
           </div>
           {/* Text */}
-          <div>
-            <p>Text</p>
+          <div className="flex flex-col justify-center items-start gap-4 w-full h-fit">
+            <div className="flex flex-row justify-between items-center w-full">
+              <h4 className="text-3xl">Product Name</h4>
+              <Heart size={28} />
+            </div>
+            <p className="text-xl text-primary_darkerShade-750">$1000</p>
           </div>
         </div>
         {/* Product 1 */}
-        <div>
+        <div className="flex flex-col justify-center items-start gap-6">
           {/* Image */}
-          <div>
-            <p>Image</p>
+          <div className="relative w-full h-[400px]">
+            <img
+              src={image}
+              alt="product image"
+              className="w-full h-full object-cover rounded-3xl"
+            />
           </div>
           {/* Text */}
-          <div>
-            <p>Text</p>
+          <div className="flex flex-col justify-center items-start gap-4 w-full h-fit">
+            <div className="flex flex-row justify-between items-center w-full">
+              <h4 className="text-3xl">Product Name</h4>
+              <Heart size={28} />
+            </div>
+            <p className="text-xl text-primary_darkerShade-750">$1000</p>
           </div>
         </div>
         {/* Product 1 */}
-        <div>
+        <div className="flex flex-col justify-center items-start gap-6">
           {/* Image */}
-          <div>
-            <p>Image</p>
+          <div className="relative w-full h-[400px]">
+            <img
+              src={image}
+              alt="product image"
+              className="w-full h-full object-cover rounded-3xl"
+            />
           </div>
           {/* Text */}
-          <div>
-            <p>Text</p>
+          <div className="flex flex-col justify-center items-start gap-4 w-full h-fit">
+            <div className="flex flex-row justify-between items-center w-full">
+              <h4 className="text-3xl">Product Name</h4>
+              <Heart size={28} />
+            </div>
+            <p className="text-xl text-primary_darkerShade-750">$1000</p>
           </div>
         </div>
       </div>
