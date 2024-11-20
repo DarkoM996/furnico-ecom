@@ -1,7 +1,11 @@
-import { MenuIcon, SearchIcon, ShoppingBag } from "lucide-react";
+import { MenuIcon, SearchIcon, ShoppingBag, X } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [nav, setNav] = useState(false);
+  const handleClick = () => setNav(!nav);
+
   return (
     <nav className="border-b border-primary_lighterShade-100">
       <div className="max-w-screen-3xl mx-auto w-full h-20 flex justify-between items-center px-6 lg:px-28">
@@ -21,11 +25,24 @@ const Navbar = () => {
           <SearchIcon />
         </div>
         {/* Hamburger Menu */}
-        <div className="flex gap-2 md:hidden">
-          <MenuIcon />
-          <ShoppingBag />
+        <div onClick={handleClick} className="md:hidden">
+          {!nav ? <X /> : <MenuIcon />}
         </div>
         {/* Mobile Menu */}
+        <ul className="absolute top-0 left-0 w-full min-h-screen flex flex-col justify-center items-center gap-8 md:gap-16 bg-primary_lighterShade-300">
+          <Link to="/" className="text-5xl">
+            Home
+          </Link>
+          <Link to="/" className="text-5xl">
+            Products
+          </Link>
+          <Link to="/" className="text-5xl">
+            About
+          </Link>
+          <Link to="/" className="text-5xl">
+            Contact
+          </Link>
+        </ul>
       </div>
     </nav>
   );
