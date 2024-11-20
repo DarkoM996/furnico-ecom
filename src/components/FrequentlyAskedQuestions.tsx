@@ -31,8 +31,10 @@ const FrequentlyAskedQuestions = () => {
                 value="item-1"
                 className="border-b border-primary_lighterShade-100"
               >
-                <AccordionTrigger>What is Furnico known for?</AccordionTrigger>
-                <AccordionContent>
+                <AccordionTrigger className="text-2xl md:text-3xl">
+                  What is Furnico known for?
+                </AccordionTrigger>
+                <AccordionContent className=" text-primary_darkerShade-700 md:text-xl">
                   Furnico is known for its exquisite and meticulously crafted
                   furniture that adds a touch of elegance in any space.
                 </AccordionContent>
@@ -46,8 +48,10 @@ const FrequentlyAskedQuestions = () => {
                 value="item-1"
                 className="border-b border-primary_lighterShade-100"
               >
-                <AccordionTrigger>How do I place an order?</AccordionTrigger>
-                <AccordionContent>
+                <AccordionTrigger className="text-2xl md:text-3xl">
+                  How do I place an order?
+                </AccordionTrigger>
+                <AccordionContent className=" text-primary_darkerShade-700 md:text-xl">
                   Click on a product that you like and just follow the steps
                   from there.
                 </AccordionContent>
@@ -61,10 +65,10 @@ const FrequentlyAskedQuestions = () => {
                 value="item-1"
                 className="border-b border-primary_lighterShade-100"
               >
-                <AccordionTrigger>
+                <AccordionTrigger className="text-2xl md:text-3xl">
                   Is customization available for furniture pieces?
                 </AccordionTrigger>
-                <AccordionContent>
+                <AccordionContent className=" text-primary_darkerShade-700 md:text-xl">
                   No. For now, that option isn't available.
                 </AccordionContent>
               </AccordionItem>
@@ -77,8 +81,10 @@ const FrequentlyAskedQuestions = () => {
                 value="item-1"
                 className="border-b border-primary_lighterShade-100"
               >
-                <AccordionTrigger>Where can I start project?</AccordionTrigger>
-                <AccordionContent>
+                <AccordionTrigger className="text-2xl md:text-3xl">
+                  Where can I start project?
+                </AccordionTrigger>
+                <AccordionContent className=" text-primary_darkerShade-700 md:text-xl">
                   This question will be changed
                 </AccordionContent>
               </AccordionItem>
