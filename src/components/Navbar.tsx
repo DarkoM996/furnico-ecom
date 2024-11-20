@@ -40,13 +40,13 @@ const Navbar = () => {
           <Link to="/" className="text-5xl">
             Home
           </Link>
-          <Link to="/" className="text-5xl">
+          <Link to="/products" className="text-5xl">
             Products
           </Link>
-          <Link to="/" className="text-5xl">
+          <Link to="/about" className="text-5xl">
             About
           </Link>
-          <Link to="/" className="text-5xl">
+          <Link to="/contact" className="text-5xl">
             Contact
           </Link>
         </ul>
