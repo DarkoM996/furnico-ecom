@@ -31,9 +31,10 @@ const FrequentlyAskedQuestions = () => {
                 value="item-1"
                 className="border-b border-primary_lighterShade-100"
               >
-                <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                <AccordionTrigger>What is Furnico known for?</AccordionTrigger>
                 <AccordionContent>
-                  Yes. It adheres to the WAI-ARIA design pattern.
+                  Furnico is known for its exquisite and meticulously crafted
+                  furniture that adds a touch of elegance in any space.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -45,9 +46,10 @@ const FrequentlyAskedQuestions = () => {
                 value="item-1"
                 className="border-b border-primary_lighterShade-100"
               >
-                <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                <AccordionTrigger>How do I place an order?</AccordionTrigger>
                 <AccordionContent>
-                  Yes. It adheres to the WAI-ARIA design pattern.
+                  Click on a product that you like and just follow the steps
+                  from there.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -59,9 +61,11 @@ const FrequentlyAskedQuestions = () => {
                 value="item-1"
                 className="border-b border-primary_lighterShade-100"
               >
-                <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                <AccordionTrigger>
+                  Is customization available for furniture pieces?
+                </AccordionTrigger>
                 <AccordionContent>
-                  Yes. It adheres to the WAI-ARIA design pattern.
+                  No. For now, that option isn't available.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -73,9 +77,9 @@ const FrequentlyAskedQuestions = () => {
                 value="item-1"
                 className="border-b border-primary_lighterShade-100"
               >
-                <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                <AccordionTrigger>Where can I start project?</AccordionTrigger>
                 <AccordionContent>
-                  Yes. It adheres to the WAI-ARIA design pattern.
+                  This question will be changed
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
