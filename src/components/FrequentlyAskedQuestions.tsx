@@ -18,7 +18,7 @@ const FrequentlyAskedQuestions = () => {
           />
         </div>
         {/* Shadcn stuff */}
-        <div>
+        <div className="grid grid-cols-1 place-content-start gap-2">
           <div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl pb-12">
               Frequently Asked Questions
@@ -27,7 +27,10 @@ const FrequentlyAskedQuestions = () => {
           {/* Shadcn accordion #1 */}
           <div>
             <Accordion type="single" collapsible>
-              <AccordionItem value="item-1">
+              <AccordionItem
+                value="item-1"
+                className="border-b border-primary_lighterShade-100"
+              >
                 <AccordionTrigger>Is it accessible?</AccordionTrigger>
                 <AccordionContent>
                   Yes. It adheres to the WAI-ARIA design pattern.
@@ -38,7 +41,10 @@ const FrequentlyAskedQuestions = () => {
           {/* Shadcn accordion #1 */}
           <div>
             <Accordion type="single" collapsible>
-              <AccordionItem value="item-1">
+              <AccordionItem
+                value="item-1"
+                className="border-b border-primary_lighterShade-100"
+              >
                 <AccordionTrigger>Is it accessible?</AccordionTrigger>
                 <AccordionContent>
                   Yes. It adheres to the WAI-ARIA design pattern.
@@ -49,7 +55,10 @@ const FrequentlyAskedQuestions = () => {
           {/* Shadcn accordion #1 */}
           <div>
             <Accordion type="single" collapsible>
-              <AccordionItem value="item-1">
+              <AccordionItem
+                value="item-1"
+                className="border-b border-primary_lighterShade-100"
+              >
                 <AccordionTrigger>Is it accessible?</AccordionTrigger>
                 <AccordionContent>
                   Yes. It adheres to the WAI-ARIA design pattern.
@@ -60,7 +69,10 @@ const FrequentlyAskedQuestions = () => {
           {/* Shadcn accordion #1 */}
           <div>
             <Accordion type="single" collapsible>
-              <AccordionItem value="item-1">
+              <AccordionItem
+                value="item-1"
+                className="border-b border-primary_lighterShade-100"
+              >
                 <AccordionTrigger>Is it accessible?</AccordionTrigger>
                 <AccordionContent>
                   Yes. It adheres to the WAI-ARIA design pattern.
