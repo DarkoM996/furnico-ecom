@@ -1,4 +1,4 @@
-import { MenuIcon, SearchIcon, ShoppingBag, X } from "lucide-react";
+import { MenuIcon, SearchIcon, ShoppingBag, User, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
@@ -20,8 +20,8 @@ const Navbar = () => {
         </ul>
         {/* Icons */}
         <div className="hidden md:flex justify-center items-center gap-3">
-          <MenuIcon />
           <ShoppingBag />
+          <User />
           <SearchIcon />
         </div>
         {/* Hamburger Menu */}
