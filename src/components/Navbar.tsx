@@ -20,8 +20,9 @@ const Navbar = () => {
           <SearchIcon />
         </div>
         {/* Hamburger Menu */}
-        <div className="md:hidden">
+        <div className="flex gap-2 md:hidden">
           <MenuIcon />
+          <ShoppingBag />
         </div>
       </div>
     </nav>
