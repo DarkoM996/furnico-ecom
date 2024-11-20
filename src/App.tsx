@@ -1,4 +1,5 @@
 import BelovedProducts from "./components/BelovedProducts";
+import Footer from "./components/Footer";
 import FrequentlyAskedQuestions from "./components/FrequentlyAskedQuestions";
 import Hero from "./components/Hero";
 import LatestProducts from "./components/LatestProducts";
@@ -14,6 +15,7 @@ const App = () => {
       <BelovedProducts />
       <Testimonials />
       <FrequentlyAskedQuestions />
+      <Footer />
     </>
   );
 };
