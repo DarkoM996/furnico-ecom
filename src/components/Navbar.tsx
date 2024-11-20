@@ -13,10 +13,10 @@ const Navbar = () => {
           <h4 className="text-2xl md:text-3xl">Furnico</h4>
         </div>
         <ul className="hidden md:flex justify-center items-center gap-4">
-          <a href="/">Home</a>
-          <a href="/">Products</a>
-          <a href="/">About</a>
-          <a href="/">Contact</a>
+          <Link to="/">Home</Link>
+          <Link to="/products">Products</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
         </ul>
         {/* Icons */}
         <div className="hidden md:flex justify-center items-center gap-3">
