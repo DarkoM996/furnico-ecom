@@ -1,4 +1,5 @@
 import { MenuIcon, SearchIcon, ShoppingBag } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -24,6 +25,7 @@ const Navbar = () => {
           <MenuIcon />
           <ShoppingBag />
         </div>
+        {/* Mobile Menu */}
       </div>
     </nav>
   );
