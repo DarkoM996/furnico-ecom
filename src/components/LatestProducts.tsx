@@ -9,7 +9,7 @@ const LatestProducts = () => {
         Latest Products
       </h2>
       {/* Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-6">
         {/* Product 1 */}
         <div className="flex flex-col justify-center items-start gap-6">
           {/* Image */}
