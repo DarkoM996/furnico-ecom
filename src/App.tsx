@@ -1,23 +1,18 @@
-import BelovedProducts from "./components/BelovedProducts";
-import Footer from "./components/Footer";
-import FrequentlyAskedQuestions from "./components/FrequentlyAskedQuestions";
-import Hero from "./components/Hero";
-import LatestProducts from "./components/LatestProducts";
-import Navbar from "./components/Navbar";
-import Testimonials from "./components/Testimonials";
+import {
+  createBrowserRouter,
+  Route,
+  createRoutesFromElements,
+  RouterProvider,
+} from "react-router-dom";
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<h1>Something</h1>}></Route>
+  )
+);
 
 const App = () => {
-  return (
-    <main className="w-full min-h-screen">
-      <Navbar />
-      <Hero />
-      <LatestProducts />
-      <BelovedProducts />
-      <Testimonials />
-      <FrequentlyAskedQuestions />
-      <Footer />
-    </main>
-  );
+  return <RouterProvider router={router} />;
 };
 
 export default App;
