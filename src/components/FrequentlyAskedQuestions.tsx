@@ -8,7 +8,7 @@ import image from "../images/newsstandimage.jpg";
 
 const FrequentlyAskedQuestions = () => {
   return (
-    <section className="max-w-screen-3xl mx-auto w-full h-fit relative px-6 py-6 md:py-16 lg:px-28 lg:py-24">
+    <section className="max-w-screen-3xl mx-auto w-full h-fit relative px-6 py-10 md:py-16 lg:px-28 lg:py-24">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 lg:gap-24 w-full h-fit">
         <div>
           <img
