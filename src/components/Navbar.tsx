@@ -25,11 +25,18 @@ const Navbar = () => {
           <SearchIcon />
         </div>
         {/* Hamburger Menu */}
-        <div onClick={handleClick} className="md:hidden">
-          {!nav ? <X /> : <MenuIcon />}
+        <div onClick={handleClick} className="md:hidden z-40">
+          {!nav ? <MenuIcon /> : <X />}
         </div>
         {/* Mobile Menu */}
-        <ul className="absolute top-0 left-0 w-full min-h-screen flex flex-col justify-center items-center gap-8 md:gap-16 bg-primary_lighterShade-300">
+        <ul
+          onClick={handleClick}
+          className={
+            !nav
+              ? "hidden"
+              : "absolute top-0 left-0 w-full min-h-screen flex flex-col justify-center items-center gap-8 md:gap-16 bg-primary_lighterShade-300 z-30"
+          }
+        >
           <Link to="/" className="text-5xl">
             Home
           </Link>
