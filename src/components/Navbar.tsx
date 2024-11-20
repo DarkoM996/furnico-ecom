@@ -19,14 +19,14 @@ const Navbar = () => {
           <Link to="/contact">Contact</Link>
         </ul>
         {/* Icons */}
-        <div className="hidden md:flex justify-center items-center gap-3">
+        <div className="flex justify-center items-center gap-3">
           <ShoppingBag />
           <User />
           <SearchIcon />
-        </div>
-        {/* Hamburger Menu */}
-        <div onClick={handleClick} className="md:hidden z-40">
-          {!nav ? <MenuIcon /> : <X />}
+          {/* Hamburger Menu */}
+          <div onClick={handleClick} className="md:hidden z-40">
+            {!nav ? <MenuIcon /> : <X />}
+          </div>
         </div>
         {/* Mobile Menu */}
         <ul
