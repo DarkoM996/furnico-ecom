@@ -9,7 +9,7 @@ const Testimonials = () => {
       {/* Grid of cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full h-fit">
         {/* Card 1*/}
-        <div className="flex flex-col justify-center items-start gap-6 px-6 py-4 bg-primary_lighterShade-200 rounded-3xl">
+        <div className="flex flex-col justify-center items-start gap-6 px-6 py-4 bg-primary_lighterShade-200 hover:bg-primary_lighterShade-300 border border-primary_lighterShade-300 rounded-3xl">
           <div className="flex flex-col items-start gap-2">
             <h4 className="text-2xl md:text-3xl">Amazing Sofa</h4>
             {/* Star rating */}
@@ -36,7 +36,7 @@ const Testimonials = () => {
           </div>
         </div>
         {/* Card 1*/}
-        <div className="flex flex-col justify-center items-start gap-6 px-6 py-4 bg-primary_lighterShade-200 rounded-3xl w-full h-full">
+        <div className="flex flex-col justify-center items-start gap-6 px-6 py-4 bg-primary_lighterShade-200 hover:bg-primary_lighterShade-300 border border-primary_lighterShade-300 rounded-3xl w-full h-full">
           <div className="flex flex-col items-start gap-2">
             <h4 className="text-2xl md:text-3xl">Best Sofa Ever</h4>
             {/* Star rating */}
@@ -63,7 +63,7 @@ const Testimonials = () => {
           </div>
         </div>
         {/* Card 1*/}
-        <div className="flex flex-col justify-center items-start gap-6 px-6 py-4 bg-primary_lighterShade-200 rounded-3xl">
+        <div className="flex flex-col justify-center items-start gap-6 px-6 py-4 bg-primary_lighterShade-200 hover:bg-primary_lighterShade-300 border border-primary_lighterShade-300 rounded-3xl">
           <div className="flex flex-col items-start gap-2">
             <h4 className="text-2xl md:text-3xl">The Best Mattress</h4>
             {/* Star rating */}
@@ -90,7 +90,7 @@ const Testimonials = () => {
           </div>
         </div>
         {/* Card 4*/}
-        <div className="flex flex-col justify-center items-start gap-6 px-6 py-4 bg-primary_lighterShade-200 rounded-3xl">
+        <div className="flex flex-col justify-center items-start gap-6 px-6 py-4 bg-primary_lighterShade-200 hover:bg-primary_lighterShade-300 border border-primary_lighterShade-300 rounded-3xl">
           <div className="flex flex-col items-start gap-2">
             <h4 className="text-2xl md:text-3xl">Best Sleep</h4>
             {/* Star rating */}
