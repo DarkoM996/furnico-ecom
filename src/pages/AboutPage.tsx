@@ -1,4 +1,5 @@
 import AboutPageHero from "@/components/aboutpagecomponents/AboutPageHero";
+import OurTeam from "@/components/aboutpagecomponents/OurTeam";
 import ValueSection from "@/components/aboutpagecomponents/ValueSection";
 
 const AboutPage = () => {
@@ -6,6 +7,7 @@ const AboutPage = () => {
     <>
       <AboutPageHero />
       <ValueSection />
+      <OurTeam />
     </>
   );
 };
