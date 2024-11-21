@@ -1,7 +1,11 @@
-import React from "react";
+import AboutPageHero from "@/components/aboutpagecomponents/AboutPageHero";
 
 const AboutPage = () => {
-  return <div>AboutPage</div>;
+  return (
+    <>
+      <AboutPageHero />
+    </>
+  );
 };
 
 export default AboutPage;
