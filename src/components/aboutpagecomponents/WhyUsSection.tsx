@@ -25,8 +25,8 @@ const WhyUsSection = () => {
               nesciunt magnam at.
             </p>
           </div>
-          <div>
-            <h4>Experience</h4>
+          <div className="grid grid-cols-1 gap-4 place-content-start">
+            <h4 className="text-2xl md:text-3xl">Experience</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
               quos, qui neque at alias ipsa illum commodi eligendi hic eius
@@ -34,8 +34,8 @@ const WhyUsSection = () => {
               nesciunt magnam at.
             </p>
           </div>
-          <div>
-            <h4>Knowledge</h4>
+          <div className="grid grid-cols-1 gap-4 place-content-start">
+            <h4 className="text-2xl md:text-3xl">Knowledge</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
               quos, qui neque at alias ipsa illum commodi eligendi hic eius
@@ -43,8 +43,8 @@ const WhyUsSection = () => {
               nesciunt magnam at.
             </p>
           </div>
-          <div>
-            <h4>Innovation</h4>
+          <div className="grid grid-cols-1 gap-4 place-content-start">
+            <h4 className="text-2xl md:text-3xl">Innovation</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
               quos, qui neque at alias ipsa illum commodi eligendi hic eius
