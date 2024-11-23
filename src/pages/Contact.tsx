@@ -1,6 +1,12 @@
 import contactimage from "../images/contactimage.jpg";
 
-const Contact = ({}) => {
+export type Note = {
+  id: number;
+  title: string;
+  content: string;
+};
+
+const Contact = () => {
   return (
     <section className="max-w-screen-3xl mx-auto w-full h-fit relative px-6 py-8 md:px-10 py:py-12 lg:px-28">
       <div className="relative h-[300px] lg:h-[400px]">
@@ -44,6 +50,7 @@ const Contact = ({}) => {
           <textarea
             className=" p-4 bg-primary_lighterShade-50 hover:bg-primary_lighterShade-100 rounded-2xl border border-primary_lighterShade-300 w-full"
             name="message"
+            rows={10}
             placeholder="Your message here"
           />
           <div className="flex flex-col justify-center items-start w-full h-full">
