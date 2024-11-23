@@ -1,6 +1,7 @@
 import image from "../images/categorycard.jpg";
 import image2 from "../images/categorycard2.jpg";
 import image3 from "../images/aboutimage.jpg";
+import { Link } from "react-router-dom";
 
 const BelovedProducts = () => {
   return (
@@ -23,6 +24,16 @@ const BelovedProducts = () => {
             alt="beloved product"
             className="w-full h-full object-cover rounded-3xl"
           />
+          {/* Text + Link */}
+          <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-4 bg-black/40 rounded-3xl">
+            <h4 className="text-2xl md:text-3xl text-white">Beloved Product</h4>
+            <Link
+              to="/products"
+              className="px-8 py-4 bg-black rounded-full text-primary_lighterShade-100 hover:bg-primary_darkerShade-800"
+            >
+              See Details
+            </Link>
+          </div>
         </div>
         <div className="relative h-[500px] lg:col-span-2">
           <img
