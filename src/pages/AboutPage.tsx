@@ -3,6 +3,7 @@ import CTA from "@/components/aboutpagecomponents/CTA";
 import OurTeam from "@/components/aboutpagecomponents/OurTeam";
 import ValueSection from "@/components/aboutpagecomponents/ValueSection";
 import WhyUsSection from "@/components/aboutpagecomponents/WhyUsSection";
+import Footer from "@/components/Footer";
 
 const AboutPage = () => {
   return (
@@ -12,6 +13,7 @@ const AboutPage = () => {
       <OurTeam />
       <WhyUsSection />
       <CTA />
+      <Footer />
     </>
   );
 };
