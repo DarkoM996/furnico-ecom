@@ -1,4 +1,4 @@
-import calltoactionimage from "../../images/aranprime-KbytCpI1i5I-unsplash.jpg";
+import calltoactionimage from "../../images/hannah-busing-nME9TubZtSo-unsplash.jpg";
 
 const CTA = () => {
   return (
