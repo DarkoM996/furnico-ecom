@@ -16,7 +16,7 @@ const CTA = () => {
           </h2>
           <Link
             to="/products"
-            className="bg-primary_lighterShade-50 border border-black p-6 rounded-full text-black hover:bg-primary_lighterShade-150"
+            className="bg-primary_lighterShade-50 border border-black px-8 py-4 rounded-full text-black hover:bg-primary_lighterShade-150"
           >
             Products
           </Link>
