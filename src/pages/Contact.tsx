@@ -16,11 +16,11 @@ const Contact = () => {
           className="w-full h-full object-cover rounded-3xl"
         />
       </div>
-      <div className="flex flex-col md:flex-row justify-center items-start w-full gap-4 lg:gap-8 ">
+      <div className="flex flex-col lg:flex-row justify-center items-start w-full gap-4 lg:gap-8 ">
         {/* Heading */}
-        <div className="flex flex-col justify-center items-start">
+        <div className="flex flex-col justify-center items-start lg:w-3/4">
           <h1 className="text-5xl md:text-6xl py-6">Contact Page</h1>
-          <p className="text-balance w-full lg:w-1/2">
+          <p className="text-balance w-full md:w-2/3 lg:w-full">
             Simply fill out the form that we have provided here with the basic
             info and tell us about what you want to contact us. Your message
             will be read and someone will get in contact from our support team.
@@ -29,7 +29,7 @@ const Contact = () => {
         {/* Contact Form */}
         <form
           action="#"
-          className="max-w-screen-md py-6 lg:py-8 mx-auto w-full h-full flex flex-col justify-center items-center gap-6 rounded-2xl bg-primary_lighterShade-50"
+          className="py-6 lg:py-8 mx-auto w-full h-full flex flex-col justify-center items-center gap-6 rounded-2xl bg-primary_lighterShade-50"
         >
           <div className="flex flex-col justify-between items-start w-full h-full">
             <h2 className="text-2xl md:text-3xl">Contact Page</h2>
