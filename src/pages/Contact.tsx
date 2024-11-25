@@ -20,7 +20,7 @@ const Contact = () => {
         {/* Heading */}
         <div className="flex flex-col justify-center items-start lg:w-3/4">
           <h1 className="text-5xl md:text-6xl py-6">Contact Page</h1>
-          <p className="text-balance w-full md:w-2/3 lg:w-full">
+          <p className="text-balance w-full md:w-2/3">
             Simply fill out the form that we have provided here with the basic
             info and tell us about what you want to contact us. Your message
             will be read and someone will get in contact from our support team.
