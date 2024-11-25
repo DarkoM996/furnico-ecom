@@ -1,5 +1,7 @@
 import { LucideIcon } from "lucide-react";
 
+import { Link } from "react-router-dom";
+
 interface LatestProductProps {
   id: number;
   name: string;
@@ -17,13 +19,16 @@ export function LatestProduct({
 }: LatestProductProps) {
   return (
     <div className="flex flex-col justify-center items-start gap-6">
-      <div className="relative w-full h-[400px]">
+      <Link
+        to={{ pathname: "/products/id" }}
+        className="relative w-full h-[400px]"
+      >
         <img
           src={imgURL}
           alt="product image"
           className="w-full h-full object-cover rounded-3xl"
         />
-      </div>
+      </Link>
       <div className="flex flex-col justify-center items-start gap-4 w-full h-fit">
         <div className="flex flex-col justify-center items-start gap-4 w-full h-fit">
           <div className="flex flex-row justify-between items-center w-full">
