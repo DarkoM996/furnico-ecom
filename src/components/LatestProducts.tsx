@@ -13,7 +13,7 @@ const LatestProducts = () => {
       {/* Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-6">
         {products.map((product) => (
-          <LatestProduct key={product.id} {...product} />
+          <LatestProduct key={product.id} {...product} icon={<Heart />} />
         ))}
       </div>
     </section>
