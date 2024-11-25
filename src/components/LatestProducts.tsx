@@ -1,6 +1,4 @@
 import { Heart } from "lucide-react";
-import image from "../images/trendingproduct.jpg";
-import image2 from "../images/trendingproduct2.jpg";
 import products from "../data/products.json";
 import { LatestProduct } from "./LatestProduct";
 
