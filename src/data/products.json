@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "name": "Sofa",
+    "price": 99.99,
+    "imgURL": "/images/trendingproduct.jpg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum eveniet consectetur quod exercitationem sit eius hic architecto aspernatur, expedita exercitationem sit iste atque."
+  },
+
+  {
+    "id": 1,
+    "name": "Sofa",
+    "price": 99.99,
+    "imgURL": "/images/trendingproduct.jpg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum eveniet consectetur quod exercitationem sit eius hic architecto aspernatur, expedita exercitationem sit iste atque."
+  },
+
+  {
+    "id": 1,
+    "name": "Sofa",
+    "price": 99.99,
+    "imgURL": "/images/trendingproduct.jpg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum eveniet consectetur quod exercitationem sit eius hic architecto aspernatur, expedita exercitationem sit iste atque."
+  }
+]
