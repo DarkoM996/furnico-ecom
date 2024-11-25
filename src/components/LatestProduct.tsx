@@ -11,22 +11,21 @@ interface LatestProductProps {
 }
 
 export function LatestProduct({
-  id,
   name,
   price,
   imgURL,
   icon,
 }: LatestProductProps) {
   return (
-    <div className="flex flex-col justify-center items-start gap-6">
+    <div className="flex flex-col justify-center items-start gap-6 overflow-hidden rounded-3xl hover:rounded-3xl">
       <Link
         to={{ pathname: "/products/id" }}
-        className="relative w-full h-[400px]"
+        className="relative w-full h-[400px] inline-block overflow-hidden rounded-3xl hover:rounded-3xl"
       >
         <img
           src={imgURL}
           alt="product image"
-          className="w-full h-full object-cover rounded-3xl"
+          className="w-full h-full object-cover hover:scale-110 duration-500 transition-transform hover:rounded-3xl"
         />
       </Link>
       <div className="flex flex-col justify-center items-start gap-4 w-full h-fit">
