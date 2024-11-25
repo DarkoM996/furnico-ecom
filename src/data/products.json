@@ -8,15 +8,23 @@
   },
 
   {
-    "id": 1,
-    "name": "Sofa",
+    "id": 2,
+    "name": "Mattress",
     "price": 99.99,
-    "imgURL": "/images/trendingproduct.jpg",
+    "imgURL": "/images/trendingproduct2.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum eveniet consectetur quod exercitationem sit eius hic architecto aspernatur, expedita exercitationem sit iste atque."
   },
 
   {
-    "id": 1,
+    "id": 3,
+    "name": "Kitchen",
+    "price": 99.99,
+    "imgURL": "/images/trendingproduct3.jpg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum eveniet consectetur quod exercitationem sit eius hic architecto aspernatur, expedita exercitationem sit iste atque."
+  },
+
+  {
+    "id": 4,
     "name": "Sofa",
     "price": 99.99,
     "imgURL": "/images/trendingproduct.jpg",
