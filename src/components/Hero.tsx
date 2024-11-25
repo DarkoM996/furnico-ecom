@@ -1,4 +1,3 @@
-import { Button } from "./ui/button";
 import backgroundimage from "../images/hero.jpg";
 import { Link } from "react-router-dom";
 
