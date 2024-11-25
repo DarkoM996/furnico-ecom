@@ -1,5 +1,6 @@
 import { Button } from "./ui/button";
 import backgroundimage from "../images/hero.jpg";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -28,10 +29,18 @@ const Hero = () => {
               collection
             </p>
             <div className="flex flex-row justify-center items-center gap-2">
-              <Button className="p-6 rounded-full bg-black">Get Started</Button>
-              <Button className="p-6 rounded-full bg-primary_lighterShade-400 text-black hover:bg-primary_lighterShade-500">
+              <Link
+                to="/products"
+                className="px-6 py-4 rounded-full bg-black text-primary_lighterShade-50"
+              >
+                Get Started
+              </Link>
+              <Link
+                to="/contact"
+                className="px-6 py-4 rounded-full bg-primary_lighterShade-400 text-black hover:bg-primary_lighterShade-500"
+              >
                 Contact Us
-              </Button>
+              </Link>
             </div>
           </div>
         </div>
