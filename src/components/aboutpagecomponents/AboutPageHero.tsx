@@ -17,8 +17,8 @@ const AboutPageHero = () => {
               Feel The Comfort Of Resting Comfortably Using FurniPro
             </h1>
             <div className="flex flex-col justify-center items-center gap-2">
-              <button>Swipe Down</button>
-              <ArrowDown />
+              <button className="">Swipe Down</button>
+              <ArrowDown className="animate-bounce" size={32} />
             </div>
           </div>
         </div>
