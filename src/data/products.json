@@ -27,7 +27,7 @@
     "id": 4,
     "name": "Sofa",
     "price": 99.99,
-    "imgURL": "/images/trendingproduct.jpg",
+    "imgURL": "/images/productdetailimage4.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum eveniet consectetur quod exercitationem sit eius hic architecto aspernatur, expedita exercitationem sit iste atque."
   },
 
@@ -59,7 +59,7 @@
     "id": 8,
     "name": "Sofa",
     "price": 99.99,
-    "imgURL": "/images/trendingproduct.jpg",
+    "imgURL": "/images/calltoaction.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum eveniet consectetur quod exercitationem sit eius hic architecto aspernatur, expedita exercitationem sit iste atque."
   },
 
@@ -67,7 +67,7 @@
     "id": 9,
     "name": "Sofa",
     "price": 99.99,
-    "imgURL": "/images/trendingproduct.jpg",
+    "imgURL": "/images/productdetailimage2.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum eveniet consectetur quod exercitationem sit eius hic architecto aspernatur, expedita exercitationem sit iste atque."
   },
 
@@ -75,7 +75,7 @@
     "id": 10,
     "name": "Mattress",
     "price": 99.99,
-    "imgURL": "/images/trendingproduct2.jpg",
+    "imgURL": "/images/productdetailimage3.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum eveniet consectetur quod exercitationem sit eius hic architecto aspernatur, expedita exercitationem sit iste atque."
   },
 
@@ -83,7 +83,7 @@
     "id": 11,
     "name": "Kitchen",
     "price": 99.99,
-    "imgURL": "/images/trendingproduct3.jpg",
+    "imgURL": "/images/aboutimage.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum eveniet consectetur quod exercitationem sit eius hic architecto aspernatur, expedita exercitationem sit iste atque."
   },
 
@@ -91,7 +91,7 @@
     "id": 12,
     "name": "Sofa",
     "price": 99.99,
-    "imgURL": "/images/trendingproduct.jpg",
+    "imgURL": "/images/categorycard.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum eveniet consectetur quod exercitationem sit eius hic architecto aspernatur, expedita exercitationem sit iste atque."
   }
 ]
