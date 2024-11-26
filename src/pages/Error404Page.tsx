@@ -12,20 +12,20 @@ const Error404Page = () => {
         />
         {/* Text */}
         <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-4 md:gap-6 bg-black/40 rounded-3xl">
-          <h1 className="text-4xl md:text-5xl lg:text-7xl text-white">
-            Error 404
-          </h1>
           <div className="flex flex-col justify-center items-center gap-2 w-full md:w-2/3 text-center">
+            <h1 className="text-4xl md:text-5xl lg:text-7xl text-white">
+              Error 404
+            </h1>
             <p className="text-neutral-200">
               Unfortunately, something went wrong duo to unknown reasons.
             </p>
-            <Link
-              to="/"
-              className="px-6 py-4 bg-white rounded-full uppercase text-sm hover:bg-neutral-200"
-            >
-              Back To Homepage
-            </Link>
           </div>
+          <Link
+            to="/"
+            className="px-6 py-4 bg-white rounded-full uppercase text-sm hover:bg-neutral-200"
+          >
+            Back To Homepage
+          </Link>
         </div>
       </div>
     </section>
