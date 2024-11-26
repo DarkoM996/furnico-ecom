@@ -1,4 +1,8 @@
 import productsimg from "../images/productdetailimage2.jpg";
+import { Heart } from "lucide-react";
+import products from "../data/products.json";
+
+import { LatestProduct } from "./../components/LatestProduct";
 
 const ProductsPage = () => {
   return (
@@ -15,6 +19,12 @@ const ProductsPage = () => {
             Products Page
           </h1>
         </div>
+      </div>
+      {/* Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-6 py-8 lg:py-24">
+        {products.map((product) => (
+          <LatestProduct key={product.id} {...product} icon={<Heart />} />
+        ))}
       </div>
     </section>
   );
