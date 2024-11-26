@@ -15,7 +15,7 @@ const Error404Page = () => {
           <h1 className="text-4xl md:text-5xl lg:text-7xl text-white">
             Error 404
           </h1>
-          <div className="flex flex-col justify-center items-center gap-2">
+          <div className="flex flex-col justify-center items-center gap-2 w-full md:w-2/3 text-center">
             <p className="text-neutral-200">
               Unfortunately, something went wrong duo to unknown reasons.
             </p>
