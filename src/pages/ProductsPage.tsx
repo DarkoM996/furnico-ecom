@@ -21,33 +21,15 @@ const ProductsPage = () => {
         </div>
       </div>
       {/* Filter */}
-      <div className="hidden md:flex py-12">
-        <div className="flex flex-wrap justify-between items-center gap-6">
+      <div className="hidden md:flex flex-col md:flex-row py-12">
+        <div>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl">Products</h2>
+        </div>
+        <div className="flex flex-row justify-start md:justify-end items-center gap-6 w-full">
           <select
             name="type"
             id=""
-            className="py-2 px-4 rounded-full text-sm font-medium bg-primary_lighterShade-200 hover:bg-primary_lighterShade-300"
-          >
-            <option value="">Type</option>
-            <option value="physical">Type</option>
-            <option value="digital">Type</option>
-          </select>
-          <input
-            type="text"
-            name="min"
-            placeholder="min price"
-            className="text-cs rounded-full px-4 py-2 w-32 ring-1 ring-primary_lighterShade-300"
-          />
-          <input
-            type="text"
-            name="max"
-            placeholder="max price"
-            className="text-cs rounded-full px-4 py-2 w-32 ring-1 ring-primary_lighterShade-300"
-          />
-          <select
-            name="type"
-            id=""
-            className="py-2 px-4 rounded-full text-sm font-medium bg-primary_lighterShade-200 hover:bg-primary_lighterShade-300"
+            className="px-6 py-4 rounded-full text-sm font-medium bg-primary_lighterShade-200 hover:bg-primary_lighterShade-300"
           >
             <option>Category</option>
             <option value="">New Arrival</option>
@@ -56,7 +38,7 @@ const ProductsPage = () => {
           <select
             name="type"
             id=""
-            className="py-2 px-4 rounded-full text-sm font-medium bg-primary_lighterShade-200 hover:bg-primary_lighterShade-300"
+            className="px-6 py-4 rounded-full text-sm font-medium bg-primary_lighterShade-200 hover:bg-primary_lighterShade-300"
           >
             <option value="">Color</option>
             <option value="physical">Type</option>
@@ -65,7 +47,7 @@ const ProductsPage = () => {
           <select
             name="type"
             id=""
-            className="py-2 px-4 rounded-full text-sm font-medium bg-primary_lighterShade-200 hover:bg-primary_lighterShade-300"
+            className="px-6 py-4 rounded-full text-sm font-medium bg-primary_lighterShade-200 hover:bg-primary_lighterShade-300"
           >
             <option value="">Size</option>
             <option value="physical">Size</option>
@@ -75,7 +57,7 @@ const ProductsPage = () => {
             <select
               name=""
               id=""
-              className="py-2 px-4 rounded-full text-sm font-medium bg-primary_lighterShade-200 hover:bg-primary_lighterShade-300"
+              className="px-6 py-4 rounded-full text-sm font-medium bg-primary_lighterShade-200 hover:bg-primary_lighterShade-300"
             >
               <option value="">Sort By</option>
               <option value="">Price (low to high)</option>
