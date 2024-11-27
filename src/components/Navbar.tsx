@@ -1,5 +1,5 @@
 import { MenuIcon, SearchIcon, ShoppingBag, User, X } from "lucide-react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -13,10 +13,10 @@ const Navbar = () => {
           <h4 className="text-2xl md:text-3xl">Furnico</h4>
         </div>
         <ul className="hidden md:flex justify-center items-center gap-4">
-          <Link to="/">Home</Link>
-          <Link to="/products">Products</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/products">Products</NavLink>
+          <NavLink to="/about">About</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
         </ul>
         {/* Icons */}
         <div className="flex justify-center items-center gap-3">
@@ -37,18 +37,18 @@ const Navbar = () => {
               : "absolute top-0 left-0 w-full min-h-screen flex flex-col justify-center items-center gap-8 md:gap-16 bg-primary_lighterShade-300 z-30"
           }
         >
-          <Link to="/" className="text-5xl">
+          <NavLink to="/" className="text-5xl">
             Home
-          </Link>
-          <Link to="/products" className="text-5xl">
+          </NavLink>
+          <NavLink to="/products" className="text-5xl">
             Products
-          </Link>
-          <Link to="/about" className="text-5xl">
+          </NavLink>
+          <NavLink to="/about" className="text-5xl">
             About
-          </Link>
-          <Link to="/contact" className="text-5xl">
+          </NavLink>
+          <NavLink to="/contact" className="text-5xl">
             Contact
-          </Link>
+          </NavLink>
         </ul>
       </div>
     </nav>
